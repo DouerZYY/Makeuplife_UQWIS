@@ -1,0 +1,173 @@
+.first {
+background:#4abaec;
+}
+
+.center {
+background:url(../images/maxresdefault.png) center center no-repeat;background-size: cover;
+}
+
+.more {
+background:#5dc560;
+}
+
+.center2 {
+position:relative;
+background:url(../images/lktybtn2.png) center center no-repeat;
+}
+
+.middle {
+position:relative;
+height:1800px;
+background:#e8ebed;
+}
+
+.automiddle {
+position:relative;
+margin:0 auto;
+}
+
+.m4 {
+position:relative;
+background:url(../images/Help_banner_05.png) no-repeat;
+width:500px;
+height:355px;
+top:-68px;
+left:241px;
+opacity:0;
+margin:0 auto;
+}
+
+.m3 {
+position:relative;
+background:url(../images/Help_banner_04.png) no-repeat;
+width:491px;
+height:357px;
+top:-44px;
+left:-232px;
+opacity:0;
+margin:0 auto;
+}
+
+.m2 {
+position:relative;
+background:url(../images/Help_banner_03.png) no-repeat;
+width:502px;
+height:382px;
+top:-11px;
+left:236px;
+opacity:0;
+margin:0 auto;
+}
+
+.m1 {
+position:relative;
+background:url(../images/Help_banner_02.png) no-repeat;
+width:544px;
+height:353px;
+top:75px;
+left:-238px;
+opacity:0;
+margin:0 auto;
+}
+
+.m5 {
+position:relative;
+background:url(../images/Help_banner_06.png) no-repeat;
+width:625px;
+height:263px;
+left:-15px;
+top:-283px;
+opacity:0;
+margin:0 auto;
+}
+
+.line {
+position:absolute;
+border-left:3px dotted #cfd6da;
+height:0;
+width:0;
+left:0;
+top:0;
+display:none;
+}
+
+.hover {
+width:400px;
+height:66px;
+display:block;
+position:relative;
+left:7px;
+margin:0 auto;
+}
+
+.hover:hover {
+background:url(../images/lktybtn.png);
+}
+
+.bottom {
+cursor:pointer;
+width:75px;
+height:75px;
+background:url(../images/lktybtn.png) 75px 0;
+position:absolute;
+bottom:-37px;
+left:50%;
+margin-left:-36px;
+z-index:1;
+}
+
+.star {
+background:url(../images/lktybtn.png) -413px 46px;
+width:22px;
+height:22px;
+margin:16px 0 0 25px;
+}
+
+60% {
+opacity:0.4;
+-webkit-transform:translateY(30px);
+}
+
+80% {
+-webkit-transform:translateY(-10px);
+}
+
+100% {
+-webkit-transform:translateY(0);
+}
+
+.bounceInDown {
+-webkit-animation-name:bounceInDown;
+-moz-animation-name:bounceInDown;
+-o-animation-name:bounceInDown;
+animation-name:bounceInDown;
+}
+
+.tip {
+width:24px;
+height:85px;
+position:fixed;
+right:85px;
+top:48%;
+background:url(../images/Help_dot_01.png) -6px 0;
+}
+
+.tip a {
+display:block;
+width:20px;
+height:22px;
+margin-bottom:15px;
+}
+
+.m5-cover {
+background:#e8ebed;
+height:290px;
+width:5px;
+position:relative;
+left:2px;
+margin:0 auto;
+}
+
+.lucky:hover {
+background-position:-70px 0;
+}

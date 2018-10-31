@@ -1,0 +1,135 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*============================================================
+ form support
+============================================================*/
+
+.Supportframe {
+	font: 14px/1.5 "Microsoft YaHei", tahoma, arial, "Hiragino Sans GB", \5b8b\4f53;	
+	height:auto;
+    margin: 0px 10px;
+	background-color:#ffffff;}
+
+.Supportframe h1{font-size:20px;color:#333333;padding-left: 20px;line-height:230%; font-weight:bold; margin:0px;}
+.Supportframe h2{ font-size:14px;color:#333333;padding-left: 20px;line-height:150%; font-weight:bold; margin:0px; margin-bottom:10px;}
+
+
+.top_faq_question .view_answer {
+    font-size: 12px;
+    font-weight: normal;
+    margin: 0 20px 0 0;
+    overflow: hidden;
+    padding: 0;
+    width: auto;
+}
+
+
+.top_faq_question {
+	cursor:pointer;
+	clear:both;
+}
+
+.SupportArrowClose{
+	width:10px;
+	height:10px;
+	float:left;
+	margin-top:6px;
+	margin-right:10px;
+	background: url("../images/support_arrow_left.png") no-repeat scroll transparent;
+	}
+
+
+.SupportArrowOpen{
+	width:10px;
+	height:10px;
+	float:left;
+	margin-top:6px;
+	margin-right:10px;
+	background: url("../images/support_arrow_down.png") no-repeat scroll left center transparent;
+	}
+
+.top_faq_question .SupportTitle{color:#dd4b39; font-weight:400;padding:10px 0px 10px 30px;font-size:14px; background-color:#F4F5F5; font-family:inherit;}
+.top_faq_question .SupportTitle02{color:#dd4b39; font-weight:400;padding:10px 0px 10px 30px;font-size:14px; font-family:inherit;}
+
+
+.top_faq_answer {	
+	display: none;
+	margin-left:30px;
+}
+.nobottom{border-bottom:0px solid #ffffff; margin-bottom:1px; padding:0px; margin:0px 0px 1px 0px}
+/*support page article beginer*/
+.Supportframe .top_faq_answer{  line-height: 150%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px dashed #E6E6E6;}
+.Supportframe .top_faq_answer h1{font-size:14px; color:#333333;line-height:120%; margin:10px 0px 0px 0px;}
+.Supportframe .top_faq_answer h2{font-size:15px; color:#333333;line-height:120%}
+.Supportframe .top_faq_answer h3{font-size:14px; color:#333333;line-height:120%}
+.Supportframe .top_faq_answer h1 span.SupportArrow1{
+	width:12px;
+	height:12px;
+	float:left;
+	margin-top:2px;
+	margin-right:10px;
+	background: url(../images/support_arrow_2.png) no-repeat scroll left center transparent;}
+.Supportframe .top_faq_answer p span.Supportblank1{
+	width:12px;
+	height:12px;
+	float:left;
+	margin-top:2px;
+	margin-right:10px;
+}
+.Supportframe .top_faq_answer p{margin:0 20px 0px 20px;padding:6px 0px 0px 0px;line-height:120%;font-size: 14px; font-family:inherit;}
+.Supportframe .top_faq_answer p b{padding: 0px 4px 0px 0px;}
+.Supportframe .top_faq_answer p span{color: #000000;text-decoration: underline;padding: 0px 4px 0px 0px;}
+.Supportframe .top_faq_answer p.describe{ color:#F00; font-family:inherit;}
+.Supportframe .top_faq_answer p b.up{ color:#F00;}
+.Supportframe .top_faq_answer p a, .Supportframe .top_faq_answer p a:hover{text-decoration: underline;color:#0A5498; padding: 0px 4px 0px 0px;}
+
+.Supportframe .top_faq_answer ul{margin-left:20px; font-family:inherit; }
+.Supportframe .top_faq_answer ul li{ margin: 1em 0 1em; margin-left:20px;padding-left: 20px;line-height: 1.5em; font-family:inherit; }
+.Supportframe .top_faq_answer ul li b{padding: 0px 4px 0px 0px;}
+.Supportframe .top_faq_answer li#square{font-size:14px; background: url(../images/support_arrow_2.png) no-repeat scroll left center transparent;}
+.Supportframe .top_faq_answer li#square span{color: #000000;text-decoration: underline;padding: 0px 4px 0px 0px;}
+.Supportframe .top_faq_answer li#diamond{font-size:14px;background: url(../images/support_arrow_3.png) no-repeat scroll left center transparent;}
+.Supportframe .top_faq_answer li#diamond span{color: #000000;text-decoration: underline;padding: 0px 4px 0px 0px;}
+.Supportframe .top_faq_answer li#diamond a ,.Supportframe .top_faq_answer li#diamond a:hover{text-decoration: underline;color:#0A5498; padding: 0px 4px 0px 0px;}
+
+.Supportframe .top_faq_answer li#circle{font-size:14px;background: url(../images/support_arrow_4.png) no-repeat scroll left center transparent;}
+.Supportframe .top_faq_answer li#circle span{color: #000000;text-decoration: underline;padding: 0px 4px 0px 0px;}
+.Supportframe .top_faq_answer li#decimal{font-size:14px;list-style-type:decimal;padding:0px; margin-left:20px;}
+.Supportframe .top_faq_answer li#decimal p{padding: 0px 4px 0px 0px;}
+.Supportframe .top_faq_answer li#decimal span{padding: 0px 4px 0px 0px;}
+.Supportframe .top_faq_answer li#decimal b{padding: 0px 4px 0px 0px;}
+.Supportframe .top_faq_answer li#decimal a, .Supportframe .top_faq_answer li#decimal  a:visited{text-decoration: underline;}
+
+
+.Supportframe .top_faq_answer dl{padding:0px; font-family:inherit;margin:10px 0px;}
+.Supportframe .top_faq_answer dt{font-size:14px; font-family:inherit;margin:12px 0 6px 20px; font-weight:bold;}
+.Supportframe .top_faq_answer dt span.SupportArrow1{width:12px;
+	height:12px;
+	float:left;
+	margin-top:2px;
+	margin-right:10px;
+	background: url(../images/support_arrow_2.png) no-repeat scroll left center transparent;}
+.Supportframe .top_faq_answer dl#square{list-style-type:square;}
+.Supportframe .top_faq_answer dd{margin:0 0 6px 42px;line-height: 1.5em;font-size: 14px; font-family:inherit;}
+.Supportframe .top_faq_answer dd p{padding: 0px 4px 0px 0px;}
+
+
+
+/* searchbox */
+.searchboxsupport{width:780px;height:40px;margin:20px auto 0 auto;}
+.searchboxsupport ul{ height:35px; width:500px; list-style:none; margin-left:20px}
+.searchboxsupport ul li{ float:left}
+.searchboxsupport ul li a{ float:left; line-height:35px; padding:0 20px; text-decoration:none; color:#000; font-size:14px; font-weight:bold;}
+.searchboxsupport ul li .style1{ background-color:#000; color:#fff}
+.searchboxsupport ul li .style2{ background-color:#f00;color:#fff}
+.searchboxsupport ul li .style3{ background-color:#F90;color:#fff}
+.searchboxsupport input{ height:30px;line-height:30px;width:650px;padding:0 10px;float:left;}
+.searchboxsupport .search{ border:#dd4b39 3px solid}
+.searchboxsupport .search2{ background-color:#dd4b39;}
+.searchboxsupport button{float:left;border:0;height:36px;width:100px; color:#FFF; line-height:36px;text-align:center;overflow:hidden;}
+
